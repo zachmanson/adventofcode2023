@@ -5,7 +5,7 @@ with open('input.txt') as reader:
 
 def get_candidates(s):
     if s == '?':
-        return [',', '#']
+        return ['.', '#']
     else:
         return s
 
